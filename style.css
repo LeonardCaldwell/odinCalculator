@@ -1,0 +1,17 @@
+/* body {
+    background-color: aqua;
+} */
+
+#display {
+    border-width: 4px;
+    border-style: solid;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#row2 {
+    display: flex;
+}
