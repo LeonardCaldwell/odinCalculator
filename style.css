@@ -1,17 +1,44 @@
-/* body {
-    background-color: aqua;
-} */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #display {
     border-width: 4px;
     border-style: solid;
+    width: 200px;
+    padding: 5px;
 }
 
 #buttons {
     display: flex;
     flex-direction: column;
+    
 }
 
-#row2 {
+#clear {
+    background-color: red;
+    padding: 5px;
+    height: 40px;
+    width: 50px;
+}
+
+#row1 {
+    padding: 5px;
+}
+
+.row {
     display: flex;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+}
+
+.ops {
+    flex: auto;
+}
+
+.num {
+    flex: auto;
 }
