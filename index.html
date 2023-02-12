@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="display">
@@ -13,33 +14,33 @@
     </div>
     <div id="buttons">
         <div id="row1">
-            <button id="clear" class="ops">C</button>
+            <button id="clear" onClick="reply_click(this)" class="ops">C</button>
         </div>
         <div class="row">    
-            <button id="add" class="ops">+</button>
-            <button id="sub" class="ops">-</button>
-            <button id="mult" class="ops">*</button>
-            <button id="div" class="ops">/</button>
+            <button id="add" onClick="reply_click(this)" class="ops">+</button>
+            <button id="sub" onClick="reply_click(this)" class="ops">-</button>
+            <button id="mult" onClick="reply_click(this)" class="ops">*</button>
+            <button id="div" onClick="reply_click(this)" class="ops">/</button>
         </div>
         <div class="row">
-            <button id="7" class="num">7</button>
-            <button id="8" class="num">8</button>
-            <button id="9" class="num">9</button>
+            <button id="7" onClick="reply_click(this)" class="num">7</button>
+            <button id="8" onClick="reply_click(this)" class="num">8</button>
+            <button id="9" onClick="reply_click(this)" class="num">9</button>
         </div>
         <div class="row">
-            <button id="4" class="num">4</button>
-            <button id="5" class="num">5</button>
-            <button id="6" class="num">6</button>
+            <button id="4" onClick="reply_click(this)" class="num">4</button>
+            <button id="5" onClick="reply_click(this)" class="num">5</button>
+            <button id="6" onClick="reply_click(this)" class="num">6</button>
         </div>
         <div class="row">
-            <button id="1" class="num">1</button>
-            <button id="2" class="num">2</button>
-            <button id="3" class="num">3</button>
+            <button id="1" onClick="reply_click(this)" class="num">1</button>
+            <button id="2" onClick="reply_click(this)" class="num">2</button>
+            <button id="3" onClick="reply_click(this)" class="num">3</button>
         </div>
         <div class="row">
-            <button id="0" class="num">0</button>
-            <button id="decimal" class="num">.</button>
-            <button id="equals" class="ops">=</button>
+            <button id="0" onClick="reply_click(this)" class="num">0</button>
+            <button id="decimal" onClick="reply_click(this)" class="num">.</button>
+            <button id="equals" onClick="reply_click(this)" class="ops">=</button>
         </div>
     </div>    
 </body>
